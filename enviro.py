@@ -9,4 +9,5 @@ while True:
 	h = round(h,1)
 	msg = "Temp %s Pressure %s Humidity %s" % (t,p,h)
 
+	print msg
 	sense.show_message(msg,scroll_speed=0.05)
